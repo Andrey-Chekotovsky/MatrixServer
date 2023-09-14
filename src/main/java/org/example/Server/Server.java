@@ -15,8 +15,6 @@ import java.net.Socket;
 public class Server {
     private ServerSocket serverSocket;
     private Socket clientSocket;
-    private byte[] buf = new byte[2048];
-    private InetAddress address;
     private ObjectOutputStream out;
     private ObjectInputStream in;
     public Server(ServerSocket socket){

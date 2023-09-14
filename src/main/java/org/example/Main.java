@@ -12,8 +12,7 @@ public class Main {
             new Server(new ServerSocket(PORT)).startServer();
         }
         catch (IOException excp){
-
+            excp.printStackTrace();
         }
-
     }
 }

@@ -13,8 +13,6 @@ import java.util.Scanner;
 public class Client {
     static private int PORT = 4448;
     static private Socket serverSocket;
-    static private byte[] buf = new byte[2048];
-    static private InetAddress address;
     static private ObjectOutputStream out;
     static private ObjectInputStream in;
     static private Scanner scanner = new Scanner(System.in);
